@@ -17,6 +17,7 @@
 		4E279DC9213242F300308422 /* NTWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E279DC8213242F300308422 /* NTWebView.swift */; };
 		4E279DCB2132433E00308422 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E279DCA2132433E00308422 /* NotificationManager.swift */; };
 		4E279DCD2132437500308422 /* ScriptManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E279DCC2132437500308422 /* ScriptManager.swift */; };
+		4E302CD3213F9F570076065A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E302CD2213F9F570076065A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		4E279DC8213242F300308422 /* NTWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTWebView.swift; sourceTree = "<group>"; };
 		4E279DCA2132433E00308422 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		4E279DCC2132437500308422 /* ScriptManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptManager.swift; sourceTree = "<group>"; };
+		4E302CD2213F9F570076065A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		4E279D8C2132425600308422 = {
 			isa = PBXGroup;
 			children = (
+				4E302CD2213F9F570076065A /* README.md */,
 				4E279D972132425600308422 /* Assistant */,
 				4E279DAA2132425800308422 /* AssistantTests */,
 				4E279DB52132425800308422 /* AssistantUITests */,
@@ -245,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E302CD3213F9F570076065A /* README.md in Resources */,
 				4E279D9D2132425800308422 /* Assets.xcassets in Resources */,
 				4E279DA02132425800308422 /* Main.storyboard in Resources */,
 			);
