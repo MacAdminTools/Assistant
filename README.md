@@ -4,6 +4,8 @@ The **Assistant** is an application to display html messages and action buttons 
 
 **This project is under development**. It will be reworked and modified during september '18. This tool is part of the MacHelper project but can also be used for different purposes.
 
+**Action Buttons are currently disabled**
+
 
 ## Principles
 

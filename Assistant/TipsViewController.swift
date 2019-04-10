@@ -47,7 +47,7 @@ class TipsViewController: NSViewController, WKNavigationDelegate, NTWebViewDeleg
         })
     }
     
-    func displayTip (tip: [String: Any]) {
+    /*func displayTip (tip: [String: Any]) {
         guard let indexPath = tip["indexPath"] as? String
             else{
                 return
@@ -67,6 +67,17 @@ class TipsViewController: NSViewController, WKNavigationDelegate, NTWebViewDeleg
                 }
             }
         }
+    }*/
+    
+    func displayTip (tip: String) {
+        
+        self.webview.delegate = self
+        self.webview.navigationDelegate = self
+        
+        //LogManager.shared.log(line: "Assistant display "+indexPath)
+        self.webview.load(URLRequest(url: URL(fileURLWithPath: tip)))
+        self.btBot.alphaValue = 0.6
+        self.btTop.alphaValue = 0.6
     }
     
     @IBAction func btBotTouched(_ sender: Any) {

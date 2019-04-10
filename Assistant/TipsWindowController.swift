@@ -38,7 +38,7 @@ class TipsWindowController: NSWindowController {
     }
     
     func setTip (tip: [String: Any]) {
-        guard let view = tip["view"] as? [String: Any],
+        guard let view = tip["view"] as? String,
             let frame = tip["frame"] as? [String: Float],
             let x = frame["x"],
             let y = frame["y"],
